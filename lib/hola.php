@@ -1,8 +1,8 @@
 <?php
-//Autor:Juan Antonio Caballero Prieto
-print "Introduce tu nombre";
+// Autor: Manuel Paniagua <mpaniagua@iestrassierra.com>
+print "Introduce tu nombre:";
 $nombre = trim(fgets(STDIN));
-@print "Hola {$nombre}\n";
+@print "Hola, {$nombre}\n"
 ?>
 
 
